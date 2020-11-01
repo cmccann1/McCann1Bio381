@@ -14,8 +14,24 @@
 <meta name="author" content="Cai McCann" />
 
 
-<title>BIOL 381 Cai McCann</title>
+<title>BIOL 381</title>
 
+<script>// Hide empty <a> tag within highlighted CodeBlock for screen reader accessibility (see https://github.com/jgm/pandoc/issues/6352#issuecomment-626106786) -->
+// v0.0.1
+// Written by JooYoung Seo (jooyoung@psu.edu) and Atsushi Yasumoto on June 1st, 2020.
+
+document.addEventListener('DOMContentLoaded', function() {
+  const codeList = document.getElementsByClassName("sourceCode");
+  for (var i = 0; i < codeList.length; i++) {
+    var linkList = codeList[i].getElementsByTagName('a');
+    for (var j = 0; j < linkList.length; j++) {
+      if (linkList[j].innerHTML === "") {
+        linkList[j].setAttribute('aria-hidden', 'true');
+      }
+    }
+  }
+});
+</script>
 
 
 
@@ -48,9 +64,9 @@ code span.ot { color: #007020; }
 <div class="col s12 m3">
 <div class="table cover">
 <div class="cover-card table-cell table-middle">
-<span class="author_name">BIOL 381 Cai McCann</span>
+<span class="author_name">BIOL 381</span>
 <span class="author_bio mbm">Cai McCann</span>
-<span class="author_bio mbm">1/22/2020</span>
+<span class="author_bio mbm">Spring 2020</span>
 </div>
 </div>
 </div>
@@ -61,12 +77,62 @@ code span.ot { color: #007020; }
 
 <div id="post">
 <article class="post-content">
-<div id="homework-1" class="section level2">
-<h2>Homework 1</h2>
-<p><a href="Homework_1.html">Homework 1</a></p>
-<p><a href="Homework_1.html">Homework_1</a></p>
-<p><a href="Typora_practice_sheet_Jan_15_2020_PDF.pdf">Homework 1 PDF</a></p>
-<p>*Thanks, Lauren for the prettydoc theme! :)</p>
+<hr />
+<div id="homework-12" class="section level2">
+<h2>Homework 1/2</h2>
+<p><a href="Typora_Homework_1.html">Homework 1 Typora html</a></p>
+<p><a href="Typora_Homework_1.pdf">Homework 1 Typora PDF</a></p>
+</div>
+<div id="homework-3" class="section level2">
+<h2>Homework 3</h2>
+<p><a href="Homework_3.html">Homework_3</a></p>
+</div>
+<div id="homework-4" class="section level2">
+<h2>Homework 4</h2>
+<p><a href="Homework_4.html">Homework_4</a></p>
+</div>
+<div id="homework-5" class="section level2">
+<h2>Homework 5</h2>
+<p><a href="Homework_5.html">Homework_5</a></p>
+</div>
+<div id="homework-6" class="section level2">
+<h2>Homework 6</h2>
+<p><a href="Homework_6.html">Homework_6</a></p>
+</div>
+<div id="homework-7" class="section level2">
+<h2>Homework 7</h2>
+<p><a href="Homework_7.html">Homework_7</a></p>
+</div>
+<div id="homework-8" class="section level2">
+<h2>Homework 8</h2>
+<p><a href="Homework_8.html">Homework_8</a></p>
+</div>
+<div id="homework-9" class="section level2">
+<h2>Homework 9</h2>
+<p><a href="Homework_9.html">Homework_9</a></p>
+</div>
+<div id="homework-10" class="section level2">
+<h2>Homework 10</h2>
+<p><a href="Homework_10.html">Homework_10</a></p>
+</div>
+<div id="homework-11" class="section level2">
+<h2>Homework 11</h2>
+<p><a href="Homework_11.html">Homework_11</a></p>
+</div>
+<div id="homework-12-1" class="section level2">
+<h2>Homework 12</h2>
+<p><a href="Homework_12.html">Homework_12</a></p>
+</div>
+<div id="other-notes" class="section level2">
+<h2>Other Notes:</h2>
+<p>Important note: for the purposes of demonstrating the wide variety of capabilities in R, I used study data from the Vermont Diabetes Information System (VDIS) study. VDIS reports on the study design and baseline characteristics of the population, and is well accepted by patients, providers, and laboratory staff. These results also compare favorably to recent national reports.</p>
+<p>Here is an article about the study, in case you’d like to learn more about these data <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2518939/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2518939/</a></p>
+<p><em>Citation: MacLean, C. D., Littenberg, B., Gagnon, M., Reardon, M., Turner, P. D., &amp; Jordan, C. (2004). The Vermont Diabetes Information System (VDIS): Study Design and Subject Recruitment for a Cluster Randomized Trial of a Decision Support System in a Regional Sample of Primary Care Practices. Clinical Trials (London, England), 1(6), 532–544.</em></p>
+</div>
+<div id="acknowledgements" class="section level2">
+<h2>Acknowledgements:</h2>
+<p>Thank you, Lauren Ash, for an eye-popping prettydoc theme and your help during labs!</p>
+<p>A special thanks to Dr. Gotelli for his expertise in R and support for the BIOL 381 course.</p>
 </div>
 </article>
 </div>
